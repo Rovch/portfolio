@@ -1,0 +1,31 @@
+.mainBottom1 {
+  height: 22vh;
+  bottom: 0;
+  position: absolute;
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 1.5;
+}
+
+.mainBottom2 {
+  stroke: #000;
+  stroke-width: 1px
+}
+
+#mainBottomLine1 {
+  left: 0vw;
+}
+
+#mainBottomLine2 {
+  left: 22vw;
+}
+
+#mainBottomLine3 {
+  left: 44vw;
+}
+
+#mainBottomLine4 {
+  left: 66vw;
+}

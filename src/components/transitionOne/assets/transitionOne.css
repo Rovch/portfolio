@@ -1,0 +1,225 @@
+/* ----- LoadDiv 1/5 -----  */
+
+#loading_bg_true {
+  z-index: 303;
+  position: absolute;
+  width: 100vw;
+  height: 20vh;
+  top: 0;
+  background-color: black;
+  transition-duration: 1000ms;
+  transition-timing-function: ease-out;
+}
+
+#loading_bg_false {
+  z-index: 303;
+  position: absolute;
+  transition-duration: 1000ms;
+  transition-timing-function: ease-out;
+  top: 0;
+  width: 0vw;
+  height: 20vh;
+}
+
+/* ----- LoadDiv 2/5 -----  */
+
+#loading_bg_true_2 {
+  z-index: 303;
+  position: absolute;
+  top: 20vh;
+  width: 100vw;
+  height: 20vh;
+  background-color: black;
+  transition-duration: 800ms;
+  transition-timing-function: ease-out;
+}
+
+#loading_bg_false_2 {
+  z-index: 303;
+  top: 20vh;
+  position: absolute;
+  transition-duration: 800ms;
+  transition-timing-function: ease-out;
+  width: 0vw;
+  height: 20vh;
+}
+
+/* ----- LoadDiv 3/5 -----  */
+
+#loading_bg_true_3 {
+  z-index: 303;
+  position: absolute;
+  top: 40vh;
+  width: 100vw;
+  height: 20vh;
+  background-color: black;
+  transition-duration: 600ms;
+  transition-timing-function: ease-out;
+}
+
+#loading_bg_false_3 {
+  z-index: 303;
+  top: 40vh;
+  position: absolute;
+  transition-duration: 600ms;
+  transition-timing-function: ease-out;
+  width: 0vw;
+  height: 20vh;
+}
+
+/* ----- LoadDiv 4/5 -----  */
+
+#loading_bg_true_4 {
+  z-index: 303;
+  position: absolute;
+  top: 60vh;
+  width: 100vw;
+  height: 20vh;
+  background-color: black;
+  transition-duration: 400ms;
+  transition-timing-function: ease-out;
+}
+
+#loading_bg_false_4 {
+  z-index: 303;
+  top: 60vh;
+  position: absolute;
+  transition-duration: 400ms;
+  transition-timing-function: ease-out;
+  width: 0vw;
+  height: 20vh;
+}
+
+/* ----- LoadDiv 5/5 -----  */
+
+#loading_bg_true_5 {
+  z-index: 303;
+  position: absolute;
+  top: 80vh;
+  width: 100vw;
+  height: 20vh;
+  background-color: black;
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+}
+
+#loading_bg_false_5 {
+  z-index: 303;
+  top: 80vh;
+  position: absolute;
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+  width: 0vw;
+  height: 20vh;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Quattrocento+Sans);
+.loading-text-true {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  opacity: 1;
+  transition-duration: 700ms;
+  transition-timing-function: ease-out;
+}
+
+.loading-text-false {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  width: 0;
+  height: 0;
+  line-height: 100px;
+  transition-duration: 700ms;
+  transition-timing-function: ease-out;
+}
+
+.loading-text-true span {
+  display: inline-block;
+  margin: 0 5px;
+  color: #fff;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.loading-text-true span:nth-child(1) {
+  -webkit-filter: blur(0px);
+  filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 0s infinite linear alternate;
+  animation: blur-text 1.5s 0s infinite linear alternate;
+}
+
+.loading-text-true span:nth-child(2) {
+  -webkit-filter: blur(0px);
+  filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 0.2s infinite linear alternate;
+  animation: blur-text 1.5s 0.2s infinite linear alternate;
+}
+
+.loading-text-true span:nth-child(3) {
+  -webkit-filter: blur(0px);
+  filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 0.4s infinite linear alternate;
+  animation: blur-text 1.5s 0.4s infinite linear alternate;
+}
+
+.loading-text-true span:nth-child(4) {
+  -webkit-filter: blur(0px);
+  filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 0.6s infinite linear alternate;
+  animation: blur-text 1.5s 0.6s infinite linear alternate;
+}
+
+.loading-text-true span:nth-child(5) {
+  -webkit-filter: blur(0px);
+  filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 0.8s infinite linear alternate;
+  animation: blur-text 1.5s 0.8s infinite linear alternate;
+}
+
+.loading-text-true span:nth-child(6) {
+  -webkit-filter: blur(0px);
+  filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 1s infinite linear alternate;
+  animation: blur-text 1.5s 1s infinite linear alternate;
+}
+
+.loading-text-true span:nth-child(7) {
+  -webkit-filter: blur(0px);
+  filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 1.2s infinite linear alternate;
+  animation: blur-text 1.5s 1.2s infinite linear alternate;
+}
+
+@-webkit-keyframes blur-text {
+  0% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+  }
+  100% {
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+  }
+}
+
+@keyframes blur-text {
+  0% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+  }
+  100% {
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+  }
+}

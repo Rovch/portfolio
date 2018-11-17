@@ -1,0 +1,38 @@
+#contactMenufalse {
+  transition-duration: 300ms;
+  transition-timing-function: ease-out;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  z-index: 40;
+  width: 50vw;
+  margin-left: 25vw;
+  background-color: white;
+  height: 0vh;
+}
+
+#contactMenutrue {
+  transition-duration: 300ms;
+  transition-timing-function: ease-out;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  z-index: 40;
+  width: 60vw;
+  margin-left: 20vw;
+  background-color: white;
+  height: 8vh;
+  border: .1vw solid black;
+}
+
+#contactHolder {
+  margin-left: 10%;
+  display: flex;
+  position: absolute;
+}
+
+#contactEmail {
+  /* margin-right: 10%; */
+}
+
+#contactCell {}

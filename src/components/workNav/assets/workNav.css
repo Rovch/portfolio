@@ -1,0 +1,227 @@
+/* ------ Left nav ------ */
+
+#workNavBg {
+  z-index: 10;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 40vw;
+  height: 100%;
+  background-color: black;
+}
+
+#workNavText {
+  margin-left: 2vw;
+  flex-direction: column;
+  display: flex;
+}
+
+.workNavText {
+  margin-top: 13%;
+}
+
+/* ------ fnhub text ------ */
+
+#fnhubText {
+  display: flex;
+}
+
+#fnhub_false {
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+  transform: scale(1, 1.5);
+  order: 2;
+  color: black;
+  font-size: 4vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+#fnhub_true {
+  cursor: pointer;
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+  transform: scale(1, 1.5);
+  order: 2;
+  color: yellow;
+  font-size: 4.3vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 yellow, 1px -1px 0 yellow, -1px 1px 0 yellow, 1px 1px 0 yellow;
+}
+
+#zeroOne {
+  order: 1;
+  transform: rotate(-90deg);
+  color: white;
+  font-size: 3vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+/* ------ fnhubImage ------ */
+
+#fnhubImage {
+  z-index: 0;
+  height: 109vh;
+  width: 100vw;
+  margin-left: 5vw;
+  margin-top: -1vh;
+}
+
+/* ------ localtime text ------ */
+
+#localTimeText {
+  display: flex;
+}
+
+#localTime_false {
+  transform: scale(1, 1.5);
+  order: 2;
+  color: black;
+  font-size: 4vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+#localTime_true {
+  cursor: pointer;
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+  transform: scale(1, 1.5);
+  order: 2;
+  color: #0038B3;
+  font-size: 4.3vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 #0038B3, 1px -1px 0 #0038B3, -1px 1px 0 #0038B3, 1px 1px 0 #0038B3;
+}
+
+#zeroTwo {
+  order: 1;
+  transform: rotate(-90deg);
+  color: white;
+  font-size: 3vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+/* ------ localTimeImage ------ */
+
+#localTimeImage {
+  z-index: 0;
+  height: 109vh;
+  width: 100vw;
+  margin-left: 5vw;
+  margin-top: -1vh;
+}
+
+/* ------ huddle text ------ */
+
+#huddleText {
+  display: flex;
+}
+
+#huddle_false {
+  transform: scale(1, 1.5);
+  order: 2;
+  color: black;
+  font-size: 4vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+#huddle_true {
+  cursor: pointer;
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+  transform: scale(1, 1.5);
+  order: 2;
+  color: yellow;
+  font-size: 4.3vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 yellow, 1px -1px 0 yellow, -1px 1px 0 yellow, 1px 1px 0 yellow;
+}
+
+/* ------ localTimeImage ------ */
+
+#huddleImage {
+  z-index: 0;
+  height: 109vh;
+  width: 100vw;
+  margin-left: -18vw;
+  margin-top: -1vh;
+}
+
+#zeroThree {
+  order: 1;
+  transform: rotate(-90deg);
+  color: white;
+  font-size: 3vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+/* ------ moneytree text ------ */
+
+#moneyTreeText {
+  display: flex;
+}
+
+#moneyTree_false {
+  transform: scale(1, 1.5);
+  order: 2;
+  color: black;
+  font-size: 4vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+#moneyTree_true {
+  cursor: pointer;
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+  transform: scale(1, 1.5);
+  order: 2;
+  color: #0038B3;
+  font-size: 4.3vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 #0038B3, 1px -1px 0 #0038B3, -1px 1px 0 #0038B3, 1px 1px 0 #0038B3;
+}
+
+#zeroFour {
+  order: 1;
+  transform: rotate(-90deg);
+  color: white;
+  font-size: 3vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+/* ------ localTimeImage ------ */
+
+#moneyTreeImage {
+  z-index: 0;
+  height: 109vh;
+  width: 100vw;
+  margin-left: 6vw;
+  margin-top: -1vh;
+}
+
+/* ------ workNav2 ------ */
+
+#workNavBg2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 30vw;
+  height: 100%;
+  background-color: black;
+}

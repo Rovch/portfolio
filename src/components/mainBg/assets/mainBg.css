@@ -1,0 +1,126 @@
+#mainBg {
+  width: 85vw;
+  height: 80vh;
+  background-color: black;
+}
+
+#vid {
+  position: absolute;
+  width: 70%;
+  top: 2%;
+  left: 15%;
+}
+
+/* -------------- MainBlueFigure -------------- */
+
+#mainBlueFigure1 {
+  animation-timing-function: ease-out;
+  -webkit-animation: MainBlueFigure 1s;
+  z-index: 10;
+  width: 28%;
+  top: 8%;
+  left: 0;
+  position: absolute;
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  stroke-linejoin: round;
+  stroke-miterlimit: 1.41421;
+}
+
+#mainBlueFigure2 {
+  fill: #0038b3;
+}
+
+#mainBlueText1 {
+  font-family: 'Arial-ItalicMT', 'Arial', sans-serif;
+  font-style: italic;
+  font-size: 13px;
+  fill: #efd700;
+}
+
+#mainBlueText2 {
+  font-family: 'Arial-ItalicMT', 'Arial', sans-serif;
+  font-style: italic;
+  font-size: 13px;
+  fill: #efd700;
+}
+
+@-webkit-keyframes MainBlueFigure {
+  0% {
+    left: -30%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+
+/* --- text1 --- */
+
+#mainText1 {
+  z-index: 11;
+  top: 10%;
+  left: 1%;
+  position: absolute;
+  font-size: .8vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  color: #ffe033;
+}
+
+/* --- text2 --- */
+
+#mainText2 {
+  z-index: 11;
+  top: 13%;
+  left: 8%;
+  position: absolute;
+  font-size: .8vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  color: #ffe033;
+}
+
+/* -------------- MainYellowFigure -------------- */
+
+#mainYellowFigure1 {
+  animation-timing-function: ease-out;
+  -webkit-animation: MainYellowFigure 1s;
+  z-index: 10;
+  width: 8%;
+  bottom: 25%;
+  right: 14.9%;
+  position: absolute;
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  stroke-linejoin: round;
+  stroke-miterlimit: 1.41421;
+}
+
+#mainYellowFigure2 {
+  fill: #ffe033;
+}
+
+#mainYellowText1 {
+  font-family: 'Arial-ItalicMT', 'Arial', sans-serif;
+  font-style: italic;
+  font-size: 58.653px;
+  fill: none;
+  stroke: #0038b6;
+  stroke-width: 1.17px;
+}
+
+#mainYellowText2 {
+  font-family: 'Arial-ItalicMT', 'Arial', sans-serif;
+  font-style: italic;
+  font-size: 58.653px;
+  fill: #0038b6;
+}
+
+@-webkit-keyframes MainYellowFigure {
+  0% {
+    right: 5%;
+  }
+  100% {
+    right: 14.9%;
+  }
+}

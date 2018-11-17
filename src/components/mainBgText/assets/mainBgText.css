@@ -1,0 +1,66 @@
+.mainBgText {
+  color: white;
+  font-size: 3.5vw;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+
+.mainBgTextFlexBox {
+  display: flex;
+  left: 4%;
+  position: absolute;
+}
+
+.textLine {
+  padding-left: 1vw;
+  padding-top: .5vw;
+  width: .7vw;
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  stroke-linejoin: round;
+  stroke-miterlimit: 1.41421;
+}
+
+.textLineBlue {
+  fill: #0022c6;
+}
+
+.textLineYellow {
+  fill: #FADF5A;
+}
+
+/* -------- INTERACTIVE BOX -------- */
+
+#interactiveDiv {
+  bottom: 52.5%;
+}
+
+/* -------- DESIGNER BOX/TEXT -------- */
+
+#designerDiv {
+  bottom: 45.5%;
+}
+
+#designer {
+  color: black;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+/* -------- AND BOX -------- */
+
+#andDiv {
+  bottom: 38.5%;
+}
+
+/* -------- WEB BOX -------- */
+
+#webDiv {
+  bottom: 31.5%;
+}
+
+/* -------- DEVELOPER BOX -------- */
+
+#developerDiv {
+  bottom: 24.5%;
+}

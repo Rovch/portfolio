@@ -1,0 +1,76 @@
+/* ------ background divs ------ */
+
+#aboutDiv1 {
+  top: 0;
+  width: 17vw;
+  height: 100vh;
+  border: 1px solid #7a7a7a;
+}
+
+#aboutDiv2 {
+  background-color: #F6F6F6;
+  top: 0;
+  width: 17vw;
+  height: 100vh;
+  border: 1px solid #7a7a7a;
+}
+
+#aboutDiv3 {
+  top: 0;
+  width: 17vw;
+  height: 100vh;
+  border: 1px solid #7a7a7a;
+}
+
+#aboutDiv4 {
+  top: 0;
+  width: 17vw;
+  height: 100vh;
+  border: 1px solid #7a7a7a;
+}
+
+#aboutDiv5 {
+  background-color: #F6F6F6;
+  top: 0;
+  width: 17vw;
+  height: 100vh;
+  border: 1px solid #7a7a7a;
+}
+
+#aboutDiv6 {
+  top: 0;
+  width: 17vw;
+  height: 100vh;
+  border: 1px solid #7a7a7a;
+}
+
+#divFlex {
+  display: flex;
+}
+
+/* ------ background LastName ------ */
+
+#divJackson {
+  top: 40vh;
+  right: 6vw;
+  z-index: 10;
+  position: absolute;
+  display: flex;
+}
+
+.aboutJack {
+  opacity: .2;
+  color: #0038B3;
+  font-size: 14vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+#aboutSo {
+  color: white;
+  opacity: .2;
+  font-size: 14vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 #0038B3, 1px -1px 0 #0038B3, -1px 1px 0 #0038B3, 1px 1px 0 #0038B3;
+}

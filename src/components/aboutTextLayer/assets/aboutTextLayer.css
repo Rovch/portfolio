@@ -1,0 +1,268 @@
+/* ------ leftTab ------ */
+
+#leftTab {
+  cursor: pointer;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+  width: 4vw;
+  height: 2vw;
+  border: 1px solid #0038B3;
+  top: 50vh;
+  left: 0;
+  position: absolute;
+}
+
+#leftTab:hover {
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+  width: 6vw;
+}
+
+#leftTabText {
+  pointer-events: none;
+  transform: rotate(-90deg);
+  top: 50vh;
+  left: 0;
+  position: absolute;
+  color: black;
+  font-size: 1.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+#leftTabText:hover {
+  font-size: 4vw;
+}
+
+/* ------ rightTab ------ */
+
+#rightTab {
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+  display: flex;
+  cursor: pointer;
+  width: 4vw;
+  height: 2vw;
+  border: 1px solid #FFE049;
+  top: 50vh;
+  right: 0;
+  position: absolute;
+  flex-direction: column;
+}
+
+#rightTab:hover {
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+  width: 6vw;
+}
+
+#rightTabText1 {
+  position: absolute;
+  pointer-events: none;
+  z-index: 21;
+  transform: rotate(90deg);
+  top: 50vh;
+  right: 0;
+  color: black;
+  font-size: 1.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+/* ------ skills ------ */
+
+#skills {
+  /* animation-delay: 9000;
+  animation-timing-function: ease-out;
+  -webkit-animation: skillSlideOut 1s; */
+  flex-direction: column;
+  display: flex;
+  width: 9vw;
+  height: 15vw;
+  border: 1px solid #FFE049;
+  bottom: 3vh;
+  right: 23.8vw;
+  position: absolute;
+}
+
+@-webkit-keyframes skillSlideOut {
+  0% {
+    width: 0vw;
+  }
+  100% {
+    width: 9vw;
+  }
+}
+
+.skillsText {
+  margin-top: 9%;
+  color: black;
+  font-size: 1.1vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+#js {
+  margin-left: 3.5vw;
+}
+
+#react {
+  margin-left: 4.8vw;
+}
+
+#jquery {
+  margin-left: 5.3vw;
+}
+
+#express {
+  margin-left: 3.5vw;
+}
+
+#node {
+  margin-left: 5vw;
+}
+
+#mongo {
+  margin-left: 3.9vw;
+}
+
+#sql {
+  margin-left: 6.7vw;
+}
+
+/* ------ social ------ */
+
+#social {
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+  flex-direction: column;
+  display: flex;
+  width: 9vw;
+  height: 10vw;
+  border: 1px solid #0038B3;
+  bottom: 3vh;
+  right: 40.25vw;
+  position: absolute;
+}
+
+#github {
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+  margin-top: 18%;
+  margin-left: 5.5vw;
+  color: black;
+  font-size: 1.1vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+#github:hover {
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+  margin-left: 5vw;
+  text-decoration: underline;
+}
+
+#linkedin {
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+  margin-top: 18%;
+  margin-left: 4.5vw;
+  color: black;
+  font-size: 1.1vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+#linkedin:hover {
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+  margin-left: 4vw;
+  text-decoration: underline;
+}
+
+#instagram {
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+  margin-top: 18%;
+  margin-left: 3.8vw;
+  color: black;
+  font-size: 1.1vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+#instagram:hover {
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+  margin-left: 3vw;
+  text-decoration: underline;
+}
+
+/* ------ copyright ------ */
+
+#copyright {
+  right: 6.8vw;
+  bottom: 0;
+  position: absolute;
+  margin-top: 9%;
+  color: black;
+  font-size: .5vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+/* ------ name ------ */
+
+#name {
+  right: 40.6vw;
+  top: -5vh;
+  position: absolute;
+  margin-top: 9%;
+  color: black;
+  font-size: 1vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+/* ------ name ------ */
+
+#trade {
+  right: 20.8vw;
+  top: -5vh;
+  position: absolute;
+  margin-top: 9%;
+  color: black;
+  font-size: 1vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+/* ------ est ------ */
+
+#est {
+  right: 80.2vw;
+  top: 2vh;
+  position: absolute;
+  margin-top: 9%;
+  color: black;
+  font-size: 1vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+/* ------ paragraph ------ */
+
+#paragraph {
+  line-height: 2;
+  text-align: left;
+  width: 30vw;
+  right: 19.5vw;
+  top: 10vh;
+  position: absolute;
+  margin-top: 9%;
+  color: black;
+  font-size: .8vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}

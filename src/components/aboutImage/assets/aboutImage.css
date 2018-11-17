@@ -1,0 +1,9 @@
+#aboutImage {
+  z-index: 30;
+  background-color: black;
+  width: 20vw;
+  height: 65vh;
+  position: absolute;
+  top: 20vh;
+  left: 16.6vw;
+}
